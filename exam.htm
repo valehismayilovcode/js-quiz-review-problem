@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imtahan Saytı</title>
+</head>
+<body onload="get()">
+    
+    <div id="nav">
+
+        <span id="logo">
+
+            <img src="" alt="">
+
+        </span>
+
+        <span id="menu">
+
+            <ul>
+
+                <li><a href="index.htm">Əsas Səhifə</a></li>
+
+                <li><a href="exam.htm">Imtahan</a></li>
+
+                <span id="user"><li><a href="user/main.htm"></a></li></span>
+
+            </ul>
+
+        </span>
+
+    </div>
+
+    <div id="exam">
+
+        <div id="questionBox">
+
+            <div id="q1"><!-- Question here --></div>
+
+            <input type="text" id="a1">
+
+        </div>
+
+        <br>
+
+        <div id="questionBox">
+
+            <div id="q2"><!-- Question here --></div>
+
+            <input type="text" id="a2">
+
+        </div>
+
+        <br>
+
+        <div id="questionBox">
+
+            <div id="q3"><!-- Question here --></div>
+
+            <input type="text" id="a3">
+
+        </div>
+
+        <br>
+
+        <div id="questionBox">
+
+            <div id="q4"><!-- Question here --></div>
+
+            <input type="text" id="a4">
+
+        </div>
+
+        <br>
+
+        <div id="questionBox">
+
+            <div id="q5"><!-- Question here --></div>
+
+            <input type="text" id="a5">
+
+        </div>
+
+        <div id="checkButton">
+
+            <button id="chckBtn" onclick="check()">İmtahanı bitir</button>
+
+        </div>
+
+    </div>
+
+    <div id="result" style="display: none;">
+
+        <!-- Result Here -->
+
+    </div>
+
+    <script src="get.js"></script>
+    <script src="questions.js"></script>
+    <script src="check.js"></script>
+
+</body>
+</html>
